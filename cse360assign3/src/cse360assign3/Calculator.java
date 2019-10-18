@@ -4,6 +4,7 @@ package cse360assign3;
  * This class is a child class of AddingMachine class, having the same
  * methods as its parent, along with new methods multiply, divide,
  * and power and stores these operations as well
+ * gitlink: https://github.com/Albert-Delacruz/CSE-360-Assignment3.git
  * 
  * ID: 1213265207
  * Assignment 3
