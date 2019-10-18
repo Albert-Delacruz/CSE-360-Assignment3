@@ -12,17 +12,30 @@ package cse360assign3;
  */
 public class Calculator extends AddingMachine{
 	
+	/**
+	 * Constructor for Calculator class, uses addingMachine as parent
+	 */
 	public Calculator()
 	{
 		super();//constructs parent variables
 	}
 	
+	/**
+	 * Multiplies the input value with the currently stored total and
+	 * adds the value to operations string
+	 * @param value User inputed value for multiplying
+	 */
 	public void mult(int value)
 	{
 		operations += " * " + value;
 		total = total * value;
 	}
 	
+	/**
+	 * Divides the current total with the input value, if the input is zero
+	 * will set the total to zero. Stores operation and value in operations string
+	 * @param value User inputed value for dividing
+	 */
 	public void div(int value)
 	{
 		operations += " / " + value;
@@ -36,6 +49,12 @@ public class Calculator extends AddingMachine{
 		}
 	}
 	
+	/**
+	 * Raises the current total by the input value, if the input value
+	 * is negative, it sets the total to zero. Stores the operation and 
+	 * the value into the operations string
+	 * @param value
+	 */
 	public void power(int value)
 	{
 		operations += " ^ " + value;
