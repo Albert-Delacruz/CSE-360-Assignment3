@@ -1,19 +1,21 @@
 package cse360assign3;
 
 /**
- * 
+ * This class keeps track of operations done to an integer and
+ * stores the operations done to it and the inputs used and
+ * can return these as a to string
  * 
  * 
  * ID: 1213265207
- * Assignment 2 
+ * Assignment 3
  * @author Albert De La Cruz
  * 
  */
 public class AddingMachine {
 	
 	//declaring private variables
-	private int total;
-	private String operations;//used for keeping track of operations
+	protected int total;
+	protected String operations;//used for keeping track of operations
 	
 	
 	/**
