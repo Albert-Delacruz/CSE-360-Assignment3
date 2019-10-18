@@ -8,7 +8,7 @@ package cse360assign3;
  * 
  * ID: 1213265207
  * Assignment 3
- * @author aqwxc
+ * @author Albert De La Cruz
  *
  */
 public class Calculator extends AddingMachine{
